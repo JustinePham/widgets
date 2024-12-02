@@ -16,7 +16,7 @@ const BarGraph: React.FC<{ data: any }> = ({ data }) => {
         </label>
         <span
           className="h-1 bg-gradient-to-r from-teal-400 to-blue-500 rounded-md pl-2 pr-2"
-          style={{ width: getPct(data) * 100 + '%' }}
+          style={{ width: Math.floor(getPct(data)) + '%' }}
         ></span>
       </div>
     </div>
