@@ -11,11 +11,12 @@ function getPct(obj: any) {
 function App() {
   return (
     <>
-      <div className="w-96">
+      <div className="w-96 pb-4">
         <BarGraph pct={10} itemName={'item'} />
       </div>
-      <div className="w-1 h-48">
-        <VerticalPctBarGraph data={{key1: 25, key2: 25, key3:50}} />
+      <div className="w-48 h-48">
+        <h1>Vertical bar graph</h1>
+        <VerticalPctBarGraph data={{key1: 25, key2: 25, key3:50}} barWidth='0.25rem'/>
       </div>
     </>
   );
