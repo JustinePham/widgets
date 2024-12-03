@@ -1,5 +1,7 @@
+import { FC } from 'react';
 // justine's pretty ass bargraph
-const BarGraph: React.FC<{ pct: any, itemName: string }> = ({ pct, itemName = '' }) => {
+// FC = functional component
+const BarGraph: FC<{ pct: number, itemName: string }> = ({ pct, itemName = '' }) => {
   if (!pct) pct = 0;
   
   return (

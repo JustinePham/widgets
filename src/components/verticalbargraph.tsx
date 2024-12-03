@@ -1,6 +1,7 @@
 import {blue, generateColors, teal} from '../utils'
+import { FC } from 'react';
 
-const VerticalPctBarGraph: React.FC<{ data:{[key: string]: number}, barWidth:string}> = ({ data, barWidth }) => {
+const VerticalPctBarGraph: FC<{ data:{[key: string]: number}, barWidth:string}> = ({ data, barWidth }) => {
     const sections = Object.keys(data);
     const steps = sections.length;
     const colorlist = generateColors(teal, blue, steps);
