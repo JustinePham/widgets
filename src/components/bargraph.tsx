@@ -1,6 +1,4 @@
 // justine's pretty ass bargraph
-
-
 const BarGraph: React.FC<{ pct: any, itemName: string }> = ({ pct, itemName = '' }) => {
   if (!pct) pct = 0;
   

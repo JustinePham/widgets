@@ -598,6 +598,18 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -16656,6 +16668,10 @@ video {
   padding-top: 0.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -24691,10 +24707,6 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ease-in {
