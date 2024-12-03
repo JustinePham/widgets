@@ -15,10 +15,8 @@ const BarChart: FC<{ data:{[key: string]: number}, barWidth:string, colors:strin
                             <div className=" rounded-md" style={{ backgroundColor: colors[index], width:barWidth, height: ((data[section] / sum) * 100) + "%"  }}></div>
                         </div>
                         <label className="text-xs font-bold text-center h-1/5" style={{ color: colors[index] }}>{section} {data[section]} </label>
-
                     </div>
                 </div> 
-
             ))
          }
         </div>
