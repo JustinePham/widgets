@@ -14,7 +14,7 @@ function App() {
         <div className="border-2 rounded-md p-4">
           <h1 className="pb-4">Vertical Bar Graph</h1>
           <div className='w-24 h-48'>
-            <VerticalPctBarGraph data={{key1: 25, key2: 25, key3:50}} barWidth='0.25rem'/>
+            <VerticalPctBarGraph data={{key1: 25, key2: 25, key3:50}} barWidth='0.75rem'/>
 
           </div>
         </div>
