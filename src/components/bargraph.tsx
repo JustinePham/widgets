@@ -13,7 +13,7 @@ const BarGraph: React.FC<{ pct: any, itemName: string }> = ({ pct, itemName = ''
           </label>
         ) : ('')}
         <div className="rounded-md h-1 bg-cyan-100 inline-flex w-full">
-        <span className="h-1 bg-gradient-to-r from-teal-300 to-blue-500 rounded-md "
+        <span className="h-1 bg-gradient-to-r from-teal-300 to-blue-500 rounded-md transition-all	 ease-in"
           style={{ width: pct + '%' }}></span>
         </div>
       </div>

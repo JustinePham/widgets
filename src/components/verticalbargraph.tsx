@@ -29,7 +29,7 @@ const VerticalPctBarGraph: React.FC<{ data:{[key: string]: number}, barWidth:str
           sections.map((section, index) => (
             <div className="w-full flex flex-row rounded-md gap-1" style={{ height: data[section] + '%' }}>
                 <div className="h-full rounded-md" style={{ backgroundColor: colorlist[index], width:barWidth }}></div>
-                <label className="text-xs font-bold" style={{ color: colorlist[index] }}>{section} at {data[section]}%</label>
+                <label className="text-xs font-bold" style={{ color: colorlist[index] }}>{section} {data[section]}%</label>
             </div>
           ))
          }

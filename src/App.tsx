@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <div className="w-96 pb-4">
-        <BarGraph pct={10} itemName={'item'} />
+        <BarGraph pct={67} itemName={'item'} />
       </div>
-      <div className="w-48 h-48">
+      <div className="w-48 h-48 ">
         <h1>Vertical bar graph</h1>
         <VerticalPctBarGraph data={{key1: 25, key2: 25, key3:50}} barWidth='0.25rem'/>
       </div>
